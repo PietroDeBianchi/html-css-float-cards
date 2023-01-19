@@ -41,5 +41,26 @@ header h1 {
     width: calc(100% / 3 - 16px);
     margin: 8px;
     background-color: black;
-    height: 250px;
+}
+
+.card-photo {
+    width: 30%;
+    float: left;
+}
+
+.card-info {
+    width: 70%;
+    float: left;
+}
+
+img {
+width: 100%;
+}
+
+h3, span {
+    color: white;
+}
+
+i {
+    color: aqua;
 }
