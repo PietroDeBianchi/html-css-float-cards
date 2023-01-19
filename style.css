@@ -31,42 +31,15 @@ header h1 {
 
 /* STYLE MAIN */
 
-#card {
-    width: calc(100% / 3  - 24px);
-    margin: 12px;
-    background-color: black;
-}
-
-#card::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#team-photo {
-    width: 30%;
-    float: left;
-}
-
-#team-info {
-    width: 70%;
-    float: left;
-}
-
-
-#team-photo img {
+#card-container {
     width: 100%;
+    border: 1px solid red;
 }
 
-h3, i {
-    color: white;
-}
-
-a {
-    color: aqua;
-}
-
-h3, i, a {
-    display: block;
-    height: calc(100% / 3);
+.card {
+    float: left;
+    width: calc(100% / 3 - 16px);
+    margin: 8px;
+    background-color: black;
+    height: 250px;
 }
