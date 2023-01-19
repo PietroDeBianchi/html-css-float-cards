@@ -43,7 +43,7 @@ header h1 {
     font-size: 0;
 }
 
-.card::before {
+.card::after {
     content: "";
     display: table;
     clear: both;
@@ -58,7 +58,10 @@ header h1 {
     width: 70%;
     float: left;
     padding-left: 8px;
+    margin: 8px 0;
 }
+
+/* SINGLE ELEMENTS STYLE */
 
 img {
 width: 100%;
@@ -80,4 +83,8 @@ a {
 span, a {
     font-size: 12px;
     display: block;
+}
+
+h3, span, a {
+    line-height: 25px;
 }
